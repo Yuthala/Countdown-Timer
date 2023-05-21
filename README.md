@@ -1,4 +1,4 @@
-# countdown
+# Countdown
 
 <h5>HTML/CSS/JavaScript</h5>
 <hr>
