@@ -1,6 +1,6 @@
 /* Variables */
 
-$main-color: #FFA501;
+$main-color: #c78030;
 
 $accent-color: #1FBAD6;
 
@@ -17,8 +17,12 @@ body {
 }
 
 
-/*Blocks*/
+/*===Blocks===*/
 
+/*Header*/
+
+
+/*===Main===*/
 .timer {
 	margin-top: 150px;
 	text-align: center;
@@ -26,24 +30,41 @@ body {
 
 .timer-title {
 	font-size: 36px;
-	color: #c78030;
+	color: $main-color;
+	span {
+		font-weight: bold;
+		font-size: 32px;
+	}
 }
 .timer-action {
-	font-size: 24px;
-	color: #fff;
+	font-size: 36px;
+	font-weight: 700;
+	color: $main-color;
 	margin-top: 40px;
+	text-transform: uppercase;
 }
 .timer-numbers {
 	margin-top: 40px;
 	font-size: 90px;
-	color: #c78030;
+	color: $main-color;
 }
 .timer-numbers:after {
 	content: '';
 	display: block;
 	width: 20%;
 	height: 1px;
-	background-color: #c78030;
+	background-color: $main-color;
 	margin: 0 auto;
 	margin-top: 4px;
+}
+/*===Footer===*/
+
+.footer {
+	a {
+		font-size: 10px;
+		text-decoration: none;
+	}
+	span {
+		font-size: 10px;
+	}
 }
