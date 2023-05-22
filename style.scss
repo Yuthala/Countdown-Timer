@@ -45,13 +45,14 @@ body {
 }
 .timer-numbers {
 	margin-top: 40px;
+	font-family: 'Source Code Pro', monospace;
 	font-size: 90px;
 	color: $main-color;
 }
 .timer-numbers:after {
 	content: '';
 	display: block;
-	width: 20%;
+	width: 60%;
 	height: 1px;
 	background-color: $main-color;
 	margin: 0 auto;
