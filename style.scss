@@ -47,7 +47,9 @@ h1 {
 		border: 2px solid $main-color;
 		padding: 20px;
 		margin-top: 30px;
-		min-height: 300px;
+		margin-right: 10px;
+		min-height: 400px;
+		min-width: 48%;
 		&-title {
 			font-weight: 200;
 			font-size: 24px;
@@ -59,7 +61,7 @@ h1 {
 
 .photo img {
 	width: 100%;
-	min-height: 200px;
+	min-height: 300px;
 	object-fit: cover;
 }
 
@@ -67,6 +69,12 @@ h1 {
 	height: 25%;
 	border-bottom: 2px dotted $main-color;
 }
+
+.date {
+	font-weight: bold;
+	color: $accent-color;
+}
+
 
 /*===Main===*/
 .timer {
