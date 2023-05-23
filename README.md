@@ -1,5 +1,10 @@
 # Countdown
 
-<h5>HTML/CSS/JavaScript</h5>
+<h5>HTML/CSS/Bootstrap/JavaScript</h5>
+<h4>Полнофункциональный таймер обратного отсчета с подписями, которые изменяются в правильном падеже</h4>
 <hr>
-<h4>Configarable countdown in format hours:minutes:seconds
+
+Без JQuery, написан на чистом JavaScript.<br>
+Разметка сделана на Bootstrap grid.
+  
+
