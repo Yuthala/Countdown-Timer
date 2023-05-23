@@ -18,27 +18,27 @@
 <h4>1. Устанавливаем дату окончания обратного отсчета в формате гггг-мм-дд-чч-мм-сс</h4> 
 Если такая точность не нужна, достаточно добавить гггг-мм-дд.
 
-<img width="259" alt="Screenshot 2023-05-23 at 16 25 39" src="https://github.com/polousova/countdown/assets/113363158/affa48bd-a550-4168-8ba8-f5cb584d3083">
+<img width="259" alt="Screenshot 2023-05-23 at 16 25 39" src="https://github.com/polousova/countdown/assets/113363158/affa48bd-a550-4168-8ba8-f5cb584d3083"><br>
 
 <hr>
 <h4>2. Определям переменные в глобальной области видимости</h4>
 <ul>
-  <li>элементы со страницы с подписями секций</li>
+  <li>элементы со страницы с подписями секций</li><br>
   
 
 <img width="365" alt="Screenshot 2023-05-23 at 16 18 42" src="https://github.com/polousova/countdown/assets/113363158/5b660128-526a-4a99-899d-247ea36ead4a"><br>
-  <li>4 массива с падежами для каждой секции в отдельности</li>
+  <li>4 массива с падежами для каждой секции в отдельности</li><br>
   
   
-  <img width="179" alt="Screenshot 2023-05-23 at 16 21 30" src="https://github.com/polousova/countdown/assets/113363158/cd058226-5d83-400e-9f5c-ac2c89074647">
+  <img width="179" alt="Screenshot 2023-05-23 at 16 21 30" src="https://github.com/polousova/countdown/assets/113363158/cd058226-5d83-400e-9f5c-ac2c89074647"><br>
 
 </ul>
 <hr>
 <h4>3. Записываем функцию, которая вычисляет разницу между временем окончания отсчета в мс с помощью метода parse - функция getTimeRemaining</h4> Эта функция принимает один аргумент - endtime, который в дальнейшем будут использовать и другие функции. Функция getTimeRemaining также вычисляет сколько целых дней, часов, минут содержится в этой разнице, и остаток секунд.
   
-  <img width="632" alt="Screenshot 2023-05-23 at 16 39 29" src="https://github.com/polousova/countdown/assets/113363158/4c5925d0-465b-473e-8ede-66657ccb6824">
+  <img width="632" alt="Screenshot 2023-05-23 at 16 39 29" src="https://github.com/polousova/countdown/assets/113363158/4c5925d0-465b-473e-8ede-66657ccb6824"><br>
 
-  Вернем результат вычисления и запишем их в объект:
+  Вернем результат вычисления и запишем их в объект: <br>
   
   
  <img width="202" alt="Screenshot 2023-05-23 at 16 40 39" src="https://github.com/polousova/countdown/assets/113363158/d95a26df-82a1-4572-b32d-7e32c0d64643">
@@ -48,6 +48,6 @@
  
 <img width="431" alt="Screenshot 2023-05-23 at 16 52 18" src="https://github.com/polousova/countdown/assets/113363158/87310c67-e625-4643-923d-6940b9af3844"><br>
 
-Внутри функции setClock - функция UpdateClock, которая обрабатывает результат вычисления функции getTimeRemaining и с помощью метода textContent вставляет дни в поле для дней, часы в поле для часов и тд. Функция addZero добавляет "0" к отображемому числу, если результат вычисления от 0 до 9. <br> 
+Внутри функции setClock - функция UpdateClock, которая обрабатывает результат вычисления функции getTimeRemaining и с помощью метода textContent вставляет дни в поле для дней, часы в поле для часов и тд. <br> Функция addZero добавляет "0" к отображемому числу, если результат вычисления от 0 до 9. <br>И если таймер истек, необходимо отобразить 00 во всех секциях. <br> 
 
 <img width="496" alt="Screenshot 2023-05-23 at 17 07 30" src="https://github.com/polousova/countdown/assets/113363158/8f7d6532-7b9f-4ac4-92e4-c71331d3c7cb">
