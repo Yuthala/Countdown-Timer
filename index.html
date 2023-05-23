@@ -137,14 +137,25 @@
 			</div>
 
 			<div class="timer-numbers" id="timer">
-				<span class="days">18</span>
-				<span>:</span>
-				<span class="hours">18</span>
-				<span>:</span>
-				<span class="minutes">20</span>
-				<span>:</span>
-			<span class="seconds">11</span>
-		</div>
+				<div class="row timer-numbers">
+					<span class="col days"></span>
+					<span class="col">:</span>
+					<span class="col hours"></span>
+					<span class="col">:</span>
+					<span class="col minutes"></span>
+					<span class="col">:</span>
+					<span class="col seconds"></span>
+				</div>
+				<div class="row justify-content-center timer-labels">
+					<span class="col label_day" id="day"></span>
+					<span class="col invisible">:</span>
+					<span class="col label_hour" id="hour"></span>
+					<span class="col invisible">:</span>
+					<span class="col label_minute" id="minute"></span>
+					<span class="col invisible">:</span>
+					<span class="col label_second" id="second"></span>
+				</div>
+			</div>
 		</div>
 	</section>
 

@@ -92,42 +92,50 @@ h1 {
 		background-color: #e3e9f0;
 		border: 3px solid $accent-color;
 	}
-}
-
-.timer-title {
-	@include title;
-	span {
-		font-weight: bold;
-		font-size: 32px;
-		color: $accent-color;
+	&-title {
+		@include title;
+		span {
+			font-weight: bold;
+			font-size: 32px;
+			color: $accent-color;
+		}
+	}
+	&-action {
+		font-size: 36px;
+		font-weight: 700;
+		color: $main-color;
+		margin-top: 40px;
+		text-transform: uppercase;
+	}
+	&-numbers {
+		margin-top: 40px;
+		font-family: 'Source Code Pro', monospace;
+		font-size: 90px;
+		color: $main-color;
+		// &:after {
+		// 	content: '';
+		// 	display: block;
+		// 	width: 60%;
+		// 	height: 1px;
+		// 	background-color: $main-color;
+		// 	margin: 0 auto;
+		// 	margin-top: 4px;
+		// }
+	}
+	&-labels {
+		font-size: 20px;
+		.invisible {
+			color: #e3e9f0;
+		}
 	}
 }
-.timer-action {
-	font-size: 36px;
-	font-weight: 700;
-	color: $main-color;
-	margin-top: 40px;
-	text-transform: uppercase;
-}
-.timer-numbers {
-	margin-top: 40px;
-	font-family: 'Source Code Pro', monospace;
-	font-size: 90px;
-	color: $main-color;
-}
-.timer-numbers:after {
-	content: '';
-	display: block;
-	width: 60%;
-	height: 1px;
-	background-color: $main-color;
-	margin: 0 auto;
-	margin-top: 4px;
-}
+
+
+
 /*===Footer===*/
 
 .footer {
-	background-color: #fff;
+	background-color: #e3e9f0;
 	height: 50px;
 	padding: 20px;
 	&__link {
@@ -137,7 +145,7 @@ h1 {
 		font-weight: bold;
 	}
 	p {
-		font-size: 10px;
+		font-size: 11px;
 		text-align: center;
 		color: $accent-color;
 	}
