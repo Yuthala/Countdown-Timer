@@ -19,4 +19,13 @@
 
 <img width="211" alt="Screenshot 2023-05-23 at 15 50 21" src="https://github.com/polousova/countdown/assets/113363158/0c9e862f-3839-47a0-be23-0d7d7856bc5f">
 <hr>
-<h4> 
+<h4>Записываем переменные в глобальной области видимости</h4>
+<ul>
+  <li>элементы со страницы с подписями секций</li>
+
+<img width="365" alt="Screenshot 2023-05-23 at 16 18 42" src="https://github.com/polousova/countdown/assets/113363158/5b660128-526a-4a99-899d-247ea36ead4a">
+  <li>4 массива с падежами для каждой секции в отдельности</li>
+  
+  <img width="179" alt="Screenshot 2023-05-23 at 16 21 30" src="https://github.com/polousova/countdown/assets/113363158/cd058226-5d83-400e-9f5c-ac2c89074647">
+
+</ul>
